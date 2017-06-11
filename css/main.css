@@ -31,7 +31,12 @@ h1 {
 }
 
 .proyecto {
-    text-align: center;
+    /*text-align: center;*/
+    height: 90vh;
+}
+
+.proyecto-2 {
+    /*text-align: center;*/
     height: 90vh;
 }
 
@@ -41,7 +46,11 @@ h1 {
     align-items: center;
 }
 
-
+.centered-divs-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .mamboleap {
     background-color: #B8D8DD;
@@ -64,12 +73,7 @@ h1 {
 }
 
 .img-resizable{
-    width: 49%;
-}
-
-
-.img-resizable-2{
-    width: 41%;
+    width: 45%;
 }
 
 @media (max-width: 600px) {
@@ -80,5 +84,4 @@ h1 {
     .plus{
         display: none;
     }
-    
 }

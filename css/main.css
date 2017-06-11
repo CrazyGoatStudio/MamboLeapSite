@@ -51,6 +51,10 @@ h1 {
     width: 80%;
 }
 
+.img-resizable-drone{
+    width: 130%;
+}
+
 .leap-controler {
     background-color: #729BBF;
 }
@@ -59,15 +63,22 @@ h1 {
     background-color: #B8D8DD;
 }
 
+.img-resizable{
+    width: 49%;
+}
+
+
+.img-resizable-2{
+    width: 41%;
+}
+
 @media (max-width: 600px) {
-    .img-resizable{
-         width: 70%;
-    }
     .proyecto{
         height: 1000px;
     }
 
-    .plus-div{
-        height: 60px;
+    .plus{
+        display: none;
     }
+    
 }
